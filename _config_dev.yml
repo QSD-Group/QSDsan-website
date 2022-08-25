@@ -24,7 +24,6 @@ github_username:  QSD-Group
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-include-cache
