@@ -1,7 +1,7 @@
 ---
 title: 'QSDsan'
 layout: splash
-permalink: /splash-page/
+permalink: /
 header:
   overlay_color: "#fff"
   overlay_filter: "0.5"
