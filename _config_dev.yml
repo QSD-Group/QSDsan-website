@@ -18,22 +18,22 @@ minimal_mistakes_skin    : 'default' # 'air', 'aqua', 'contrast', 'dark', 'defau
 # in the templates via {{ site.myvariable }}.
 locale                   : 'en-US'
 title                    : 'QSDsan'
-title_separator          : ''
+title_separator          : '-'
 subtitle                 : 'An open-source platform'
 name                     : &name 'Quantitative Sustainable Design Group' # &name is a YAML anchor which can be *referenced later
-email: quantitative.sustainable.design@gmail.com
-description              : &description 'QSDsan's website'
-url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+email                    : quantitative.sustainable.design@gmail.com
+description              : &description "QSDsan's website"
+url                      : 'http://localhost:4000' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : '' # the subpath of your site, e.g. "/blog"
-github_username:  QSD-Group
-github: 
-  - metadata
+github_username          : QSD-Group
 repository               :
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+github:
+  - metadata
 comments:
   provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
   disqus:
