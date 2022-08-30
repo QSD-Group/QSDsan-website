@@ -2,10 +2,10 @@
 main:
   - title: Home
     url: /
-  - title: 'Publications'
-    url: /publications/
-  - title: 'Workshops'
-    url: /workshops/
+  - title: 'Research'
+    url: /research/
+  - title: 'Learning'
+    url: /learning/
   - title: 'App'
     url: /app/
   - title: 'Docs'

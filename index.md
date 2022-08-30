@@ -22,27 +22,27 @@ features:
 community_led:
   - image_path: /images/index/community_led.png
     alt: 'community-led'
-    title: 'Community-led platform'
-    excerpt: 'We strive to build QSDsan as a community-led platform with online documentation, topical tutorials (including video demonstrations), and transparent management with clear contribution guidelines.'
+    title: 'Open and Community-Led'
+    excerpt: 'We strive to build QSDsan as an open and community-led platform with online documentation, topical tutorials (including video demonstrations), and transparent management with clear contribution guidelines.'
     url: 'https://github.com/QSD-Group/QSDsan'
     btn_label: 'Source Code'
     btn_class: 'btn--primary'
 
-research_papers:
-  - image_path: /images/index/publications.png
-    alt: 'publications'
-    title: 'Publications'
+research:
+  - image_path: /images/index/research.png
+    alt: 'research'
+    title: 'Research'
     excerpt: 'Learn more about how the QSDsan platform can be leveraged in quantitative sustainable design (QSD) to advance technology research, development, and deployment, as well as to navigate tradeoffs across dimensions of sustainability and technology-specific indicators of engineering performance.'
-    url: '/publications'
+    url: '/research'
     btn_label: 'Learn More'
     btn_class: 'btn--primary'
 
-presentations:
-  - image_path: /images/index/workshops.png
-    alt: 'workshops'
-    title: 'Workshops'
+learning:
+  - image_path: /images/index/learning.png
+    alt: 'learning'
+    title: 'Learning'
     excerpt: 'To make the QSDsan platform more accessible to everyone, we have hosted "teaser" workshops with a simple system to go through the steps of QSD and how that can be executed using QSDsan.'
-    url: '/workshops'
+    url: '/learning'
     btn_label: 'Learn More'
     btn_class: 'btn--primary'
 ---
@@ -56,7 +56,7 @@ presentations:
 {% include feature_row id='community_led' type='left' %}
 
 <br>
-{% include feature_row id='research_papers' type='left' %}
+{% include feature_row id='research' type='left' %}
 
 <br>
-{% include feature_row id='presentations' type='left' %}
+{% include feature_row id='learning' type='left' %}
