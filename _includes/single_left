@@ -1,4 +1,3 @@
-<!-- Left align -->
 {% if include.id %}
   {% assign single_left = page[include.id] %}
 {% else %}

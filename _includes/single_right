@@ -1,4 +1,3 @@
-
 {% if include.id %}
   {% assign single_right = page[include.id] %}
 {% else %}

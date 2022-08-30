@@ -4,10 +4,10 @@ layout: splash
 permalink: /learning/
 header:
   # overlay_filter: 'rgba(0, 0, 0, 0.75)'
-  overlay_image: /images/education/splash.png
+  overlay_image: /images/learning/splash.png
 
 aeesp:
-  image_path: /images/education/aeesp.png
+  image_path: /images/learning/aeesp.png
   alt: 'AEESP'
   title: 'QSD Workshop in AEESP Research and Education Conference'
   synopsis: 'During the 2022 [Association of Environmental Engineering and Science Professors (AEESP) Research and Education Conference](https://aeesp2022.wustl.edu), we hosted a workshop on Quantitative Sustainable Design (QSD). In this workshop, we familiarize participants with a structured approach to sustainable design (QSD) and provide experience in leveraging QSD to generate insight in their domains of interest.'
@@ -18,7 +18,7 @@ aeesp:
   line: true
 
 ees:
-  image_path: /images/education/ees.png
+  image_path: /images/learning/ees.png
   alt: 'EES'
   title: 'QSDsan Workshop in EES Syposium'
   synopsis: 'We hosted an entry-level workshop of QSDsan during the [27th Environmental Engineering and Science Symposium](https://publish.illinois.edu/2022-environmentalsymposium/) at the University of Illinois Urbana-Champaign. In this workshop, attendees could interact with QSDsan through [Binder](https://mybinder.org/) without any local installation and prior knowledge on programming.'
