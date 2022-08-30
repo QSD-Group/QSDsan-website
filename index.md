@@ -1,15 +1,6 @@
 ---
-title: 'QSDsan'
 layout: splash
 permalink: /
-header:
-  overlay_color: "#fff"
-  overlay_filter: "0.5"
-  overlay_image: /images/home/splash.png
-  actions:
-    - label: 'Getting Started'
-      url: 'https://qsdsan.readthedocs.io/en/latest/'
-excerpt: '**Integrated platform** for quantitative sustainable design of sanitation and resource recovery technologies.'
 
 features:
   - image_path: /images/home/integrated.png
@@ -35,23 +26,26 @@ community_led:
     btn_class: 'btn--primary'
 
 research_papers:
-  - image_path: /images/home/research_papers.png
-    alt: 'research papers'
-    title: 'Research papers'
-    excerpt: 'Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.'
-    url: "#test-link"
+  - image_path: /images/home/publications.png
+    alt: 'publications'
+    title: 'Publications'
+    excerpt: 'Learn more about how QSDsan can be leveraged in research to 
+    the peer-reviewed studies enabled by QSDsan. Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.'
+    url: '/publications'
     btn_label: 'Learn More'
     btn_class: 'btn--primary'
 
 presentations:
-  - image_path: /images/home/presentations.png
-    alt: 'presentations'
-    title: 'Workshops and presentations'
+  - image_path: /images/home/workshops.png
+    alt: 'workshops'
+    title: 'Workshops'
     excerpt: 'Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.'
-    url: "#test-link"
+    url: '/workshops'
     btn_label: 'Learn More'
     btn_class: 'btn--primary'
 ---
+
+<img src='/images/home/splash.png' alt='QSDsan header'>
 
 <br>
 {% include feature_row_small id='features'%}
