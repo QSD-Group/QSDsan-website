@@ -1,13 +1,13 @@
 ---
-title: 'Publications'
+title: 'Research'
 layout: splash
-permalink: /publications/
+permalink: /research/
 header:
-  overlay_image: /images/publications/splash.png
+  overlay_image: /images/research/splash.png
   text_color: black
 
 qsd:
-  image_path: /images/publications/qsd.png
+  image_path: /images/research/qsd.png
   alt: 'QSD'
   title: 'Quantitative Sustainable Design (QSD): A Methodology for the Prioritization of Research, Development, and Deployment of Technologies'
   synopsis: 'Research, development, and deployment (RD&D) of innovative technologies are often impeded by the lack of transparent, systematic, and agile approaches to prioritize investment across the expansive landscape of technologies and design/operational decisions. This tutorial review synthesizes research on sustainability analyses to present Quantitative Sustainable Design (QSD) – a structured methodology to expedite the RD&D of water, sanitation, and resource recovery technologies.'
@@ -19,7 +19,7 @@ qsd:
   line: true
 
 qsdsan:
-  image_path: /images/publications/qsdsan.png
+  image_path: /images/research/qsdsan.png
   alt: 'QSDsan'
   title: 'QSDsan: an integrated platform for quantitative sustainable design of sanitation and resource recovery systems'
   synopsis: 'Robust and agile tools are needed to support the research, development, and deployment (RD&D) of sanitation and resource recovery technologies. This work introduces QSDsan – an open-source Python tool that integrates system design, simulation, and sustainability characterization (techno-economic analysis and life cycle assessment) to quickly identify critical barriers, prioritize research opportunities, and navigate multi-dimensional sustainability tradeoffs for technology RD&D.'
@@ -37,7 +37,7 @@ qsdsan:
   line: true
 
 biogenic_refinery:
-  image_path: /images/publications/biogenic_refinery.jpg
+  image_path: /images/research/biogenic_refinery.jpg
   alt: 'Biogenic Refinery'
   title: 'Financial Viability and Environmental Sustainability of Fecal Sludge Treatment with Pyrolysis Omni Processors'
   synopsis: 'Omni Processors (OPs) are community-scale systems for non-sewered fecal sludge treatment. These systems have demonstrated their capacity to treat excreta from tens of thousands of people using thermal treatment processes (e.g., pyrolysis), but their relative sustainability is unclear. In this study, QSDsan (an open-source Python package) was used to characterize the financial viability and environmental implications of fecal sludge treatment via pyrolysis-based OP technology treating mixed and source-separated human excreta and to elucidate the key drivers of system sustainability.'

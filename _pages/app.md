@@ -4,7 +4,7 @@ layout: splash
 permalink: /app/
 
 coming_soon:
-  title: 'Coming Soon!'
+  title: 'Coming Soon'
   text: 'Subscribe to our newsletter to stay in the loop!'
   btn_url: 'https://groups.webservices.illinois.edu/subscribe/154591'
   btn_label: 'Subscribe'
