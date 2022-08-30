@@ -19,16 +19,16 @@ minimal_mistakes_skin    : 'default' # 'air', 'aqua', 'contrast', 'dark', 'defau
 locale                   : 'en-US'
 title                    : 'QSDsan'
 title_separator          : '-'
-subtitle                 : 'An open-source platform'
+subtitle                 : 'An integrated platform'
 name                     : &name 'Quantitative Sustainable Design Group' # &name is a YAML anchor which can be *referenced later
 email                    : quantitative.sustainable.design@gmail.com
 description              : &description "QSDsan's website"
-url                      : 'http://qsdsan.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : 'https://qsdsan.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : '' # the subpath of your site, e.g. "/blog"
 github_username          : QSD-Group
 repository               :
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : '/images/favicon.png' # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -58,9 +58,6 @@ comments:
 reCaptcha:
   siteKey                : # "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
   secret                 : # "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
-
-atom_feed:
-  path                   : https://groups.webservices.illinois.edu/subscribe/154591 # blank (default) uses feed.xml
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
@@ -120,11 +117,17 @@ author:
 footer:
   links:
     - label: 'GitHub'
-      icon: "fab fa-fw fa-github"
+      icon: 'fab fa-fw fa-github'
       url: 'https://github.com/QSD-Group'
+    - label: 'Docs'
+      icon: 'fa fa-book'
+      url: 'https://qsdsan.readthedocs.io'
     - label: 'YouTube'
-      icon: "fab fa-fw fa-youtube"
+      icon: 'fab fa-fw fa-youtube'
       url: 'https://www.youtube.com/channel/UC8fyVeo9xf10KeuZ_4vC_GA'
+    - label: 'Newsletter'
+      icon: 'fa fa-rss-square'
+      url: 'https://groups.webservices.illinois.edu/subscribe/15459'
 
 
 # Reading Files
@@ -132,8 +135,7 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
+  - _site
   - vendor
   - .asset-cache
   - .bundle
@@ -159,7 +161,7 @@ keep_files:
   - .git
   - .svn
 encoding: 'utf-8'
-markdown_ext: 'markdown, mkdown, mkdn, mkd, md'
+markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
 
 
 # Conversion
