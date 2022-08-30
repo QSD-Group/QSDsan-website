@@ -8,60 +8,40 @@ header:
   text_color: black
 
 qsd:
-  - image_path: /images/home/integrated.png
-    alt: 'integrated'
-    title: 'integrated'
-    excerpt: 'QSDsan is an open-source platform that integrates system design, process modeling & simulation, techno-economic analysis & life cycle assessment (TEA-LCA).'
-    url: 'https://github.com/QSD-Group/QSDsan'
-    btn_label: 'Source Code'
-    btn_class: 'btn--primary'
-    url: 'https://github.com/QSD-Group/QSDsan'
-    btn_label: 'Source Code'
-    btn_class: 'btn--primary'
+  image_path: /images/home/integrated.png
+  image_width: '25%'
+  alt: 'integrated'
+  title: 'Quantitative Sustainable Design'
+  synopsis: 'QSDsan is an open-source platform that integrates system design, process modeling & simulation, techno-economic analysis & life cycle assessment (TEA-LCA).'
+  citation: 'Li and Zhang et al., something'
+  btn_num: 2
+  btn_url1: '/publications/'
+  btn_class1: 'btn--primary btn--large'
+  btn_label1: 'Read Paper'
+  btn_url2: '/publications/'
+  btn_class2: 'btn--primary btn--large'
+  btn_label2: 'Source Code'
+  line: true
 
-community_led:
-  - image_path: /images/home/community_led.png
-    alt: 'community-led'
-    title: 'Community-led platform'
-    excerpt: 'We strive to build QSDsan as a community-led platform with online documentation, topical tutorials (including video demonstrations), and transparent management with clear contribution guidelines.'
-    url: 'https://github.com/QSD-Group/QSDsan'
-    btn_label: 'Source Code'
-    btn_class: 'btn--primary'
-
-research_papers:
-  - image_path: /images/home/research_papers.png
-    alt: 'research papers'
-    title: 'Research papers'
-    excerpt: 'Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.'
-    url: "#test-link"
-    btn_label: 'Learn More'
-    btn_class: 'btn--primary'
-
-presentations:
-  - image_path: /images/home/presentations.png
-    alt: 'presentations'
-    title: 'Workshops and presentations'
-    excerpt: 'Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.'
-    url: "#test-link"
-    btn_label: 'Learn More'
-    btn_class: 'btn--primary'
+qsd2:
+  image_path: /images/home/integrated.png
+  image_width: '25%'
+  alt: 'integrated'
+  title: 'Quantitative Sustainable Design'
+  synopsis: 'QSDsan is an open-source platform that integrates system design, process modeling & simulation, techno-economic analysis & life cycle assessment (TEA-LCA).'
+  citation: 'Li and Zhang et al., something'
+  btn_num: 2
+  btn_url1: '/publications/'
+  btn_class1: 'btn--primary btn--large'
+  btn_label1: 'Read Paper'
+  btn_url2: '/publications/'
+  btn_class2: 'btn--primary btn--large'
+  btn_label2: 'Source Code'
+  line: true
 ---
 
-#!!! PAUSED, use a grid to add in figures and buttons
 
 
-## QSD
-<br>
-{% include feature_row id='qsd' type='left' %}
+{% include single_left id='qsd' %}
 
-<a href="#qsd5">Go To Middle</a>
-
-
-<br>
-{% include feature_row id='research_papers' type='left' %}
-
-<br>
-{% include feature_row id='presentations' type='left' %}
-
-
-## QSD5
+{% include single_right id='qsd2' %}

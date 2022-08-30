@@ -125,8 +125,11 @@ footer:
     - label: 'YouTube'
       icon: 'fab fa-fw fa-youtube'
       url: 'https://www.youtube.com/channel/UC8fyVeo9xf10KeuZ_4vC_GA'
+    - label: 'Email'
+      icon: 'fa fa-envelope'
+      url: 'mailto:quantitative.sustainable.design@gmail.com'
     - label: 'Newsletter'
-      icon: 'fa fa-rss-square'
+      icon: 'fa fa-rss'
       url: 'https://groups.webservices.illinois.edu/subscribe/154591'
 atom_feed:
   hide: true

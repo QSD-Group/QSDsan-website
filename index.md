@@ -4,14 +4,17 @@ permalink: /
 
 features:
   - image_path: /images/home/integrated.png
+    image_width: 25%
     alt: 'integrated'
     title: 'integrated'
     excerpt: 'QSDsan is an open-source platform that integrates system design, process modeling & simulation, techno-economic analysis & life cycle assessment (TEA-LCA).'
   - image_path: /images/home/under_uncertainty.png
+    image_width: 25%
     alt: 'under uncertainty'
     title: 'under uncertainty'
     excerpt: 'Uncertainty can be easily incorporated into each of QSDsan’s interface to navigate across the vast opportunity space of numerous technology pathways.'
   - image_path: /images/home/with_visualization.png
+    image_width: 25%
     alt: 'with visualization'
     title: 'with visualization'
     excerpt: 'Convenient visualization functions are built into QSDsan’s major classes and the statistical module for a quick grasp of the system and results.'
@@ -48,7 +51,7 @@ presentations:
 <img src='/images/home/splash.png' alt='QSDsan header'>
 
 <br>
-{% include feature_row_small id='features'%}
+{% include feature_row id='features'%}
 
 <br>
 {% include feature_row id='community_led' type='left' %}
