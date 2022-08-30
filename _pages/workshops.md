@@ -6,61 +6,32 @@ header:
   # overlay_filter: 'rgba(0, 0, 0, 0.75)'
   overlay_image: /images/workshops/splash.png
 
-qsd:
-  - image_path: /images/home/integrated.png
-    alt: 'integrated'
-    title: 'integrated'
-    excerpt: 'QSDsan is an open-source platform that integrates system design, process modeling & simulation, techno-economic analysis & life cycle assessment (TEA-LCA).'
-    url: 'https://github.com/QSD-Group/QSDsan'
-    btn_label: 'Source Code'
-    btn_class: 'btn--primary'
-    url: 'https://github.com/QSD-Group/QSDsan'
-    btn_label: 'Source Code'
-    btn_class: 'btn--primary'
+aeesp:
+  image_path: /images/workshops/aeesp.png
+  alt: 'AEESP'
+  title: 'AEESP Workshop'
+  synopsis: 'During the 2022 [Association of Environmental Engineering and Science Professors (AEESP) Research and Education Conference](https://aeesp2022.wustl.edu), we hosted a workshop on Quantitative Sustainable Design (QSD). In this workshop, we familiarize participants with a structured approach to sustainable design (QSD) and provide experience in leveraging QSD to generate insight in their domains of interest.'
+  btn_num: 1
+  btn_url1: 'https://uofi.box.com/s/o8vvpxzhydd3g7qw9i4zljzc13kygmd4'
+  btn_class1: 'btn--primary btn--large'
+  btn_label1: 'Workshop Materials'
+  line: true
 
-community_led:
-  - image_path: /images/home/community_led.png
-    alt: 'community-led'
-    title: 'Community-led platform'
-    excerpt: 'We strive to build QSDsan as a community-led platform with online documentation, topical tutorials (including video demonstrations), and transparent management with clear contribution guidelines.'
-    url: 'https://github.com/QSD-Group/QSDsan'
-    btn_label: 'Source Code'
-    btn_class: 'btn--primary'
-
-research_papers:
-  - image_path: /images/home/research_papers.png
-    alt: 'research papers'
-    title: 'Research papers'
-    excerpt: 'Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.'
-    url: "#test-link"
-    btn_label: 'Learn More'
-    btn_class: 'btn--primary'
-
-presentations:
-  - image_path: /images/home/presentations.png
-    alt: 'presentations'
-    title: 'Workshops and presentations'
-    excerpt: 'Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.Learn more about the peer-reviewed studies enabled by QSDsan.'
-    url: "#test-link"
-    btn_label: 'Learn More'
-    btn_class: 'btn--primary'
+ees:
+  image_path: /images/workshops/ees.png
+  alt: 'EES'
+  title: 'EES Symposium'
+  synopsis: 'We hosted an entry-level workshop of QSDsan during the [27th Environmental Engineering and Science Symposium](https://publish.illinois.edu/2022-environmentalsymposium/) at the University of Illinois Urbana-Champaign. In this workshop, attendees could interact with QSDsan through [Binder](https://mybinder.org/) without any local installation and prior knowledge on programming.'
+  btn_num: 2
+  btn_url1: 'https://github.com/QSD-Group/QSDsan-workshop'
+  btn_class1: 'btn--primary btn--large'
+  btn_label1: 'Workshop Materials'
+  btn_url2: 'https://youtu.be/cO3LZpwOit8'
+  btn_class2: 'btn--primary btn--large'
+  btn_label2: 'Video Recording'
+  line: true
 ---
 
-#!!! PAUSED, use a grid to add in figures and buttons
+{% include single_left id='aeesp' %}
 
-
-## QSD
-<br>
-{% include feature_row id='qsd' type='left' %}
-
-<a href="#qsd5">Go To Middle</a>
-
-
-<br>
-{% include feature_row id='research_papers' type='left' %}
-
-<br>
-{% include feature_row id='presentations' type='left' %}
-
-
-## QSD5
+{% include single_right id='ees' %}
