@@ -127,7 +127,9 @@ footer:
       url: 'https://www.youtube.com/channel/UC8fyVeo9xf10KeuZ_4vC_GA'
     - label: 'Newsletter'
       icon: 'fa fa-rss-square'
-      url: 'https://groups.webservices.illinois.edu/subscribe/15459'
+      url: 'https://groups.webservices.illinois.edu/subscribe/154591'
+atom_feed:
+  hide: true
 
 
 # Reading Files
