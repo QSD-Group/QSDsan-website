@@ -23,7 +23,7 @@ subtitle                 : 'An integrated platform'
 name                     : &name 'Quantitative Sustainable Design Group' # &name is a YAML anchor which can be *referenced later
 email                    : 'quantitative.sustainable.design@gmail.com'
 description              : &description "QSDsan's website"
-url                      : 'https://qsdsan.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : 'https://qsdsan.com' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : '' # the subpath of your site, e.g. "/blog"
 github_username          : 'QSD-Group'
 repository               : 'QSD-Group/QSDsan-website'
