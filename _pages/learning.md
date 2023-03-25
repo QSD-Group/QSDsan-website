@@ -20,7 +20,7 @@ aeesp:
 ees:
   image_path: /images/learning/ees.png
   alt: 'EES'
-  title: 'QSDsan Workshop in EES Syposium'
+  title: 'QSDsan Workshop in EES Symposium'
   synopsis: 'We hosted an entry-level workshop of QSDsan during the [27th Environmental Engineering and Science Symposium](https://publish.illinois.edu/2022-environmentalsymposium/) at the University of Illinois Urbana-Champaign. In this workshop, attendees could interact with QSDsan through [Binder](https://mybinder.org/) without any local installation and prior knowledge on programming.'
   btn_num: 2
   btn_url1: 'https://github.com/QSD-Group/QSDsan-workshop'
