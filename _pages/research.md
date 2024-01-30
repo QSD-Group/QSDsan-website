@@ -77,6 +77,21 @@ new_generator:
   btn_class1: 'btn--primary btn--large'
   btn_label1: 'Read Paper'
   line: true
+
+htl:
+  image_path: https://pubs.acs.org/cms/10.1021/acs.est.3c07394/asset/images/medium/es3c07394_0006.gif
+  alt: 'HTL'
+  title: 'Characterizing the Opportunity Space for Sustainable Hydrothermal Valorization of Wet Organic Wastes'
+  synopsis: 'Resource recovery from wetorganic wastes cans upport circular economies by creating financial incentives to produce renewable energy and return nutrients to agriculture. In this study, we characterize the potential for hydrothermal liquefaction (HTL) based resource recovery systems to advance the economic and environmental sustainability of wastewater sludge, FOG (fats,oils,and grease), food waste, green waste, and animal manure management through the production of liquid biofuels (naphtha, diesel), fertilizers (struvite, ammonium sulfate), and power (heat, electricity). In addition to two unique analysis perspectives (waste management vs. fuel production), we also set specific targets for the future development of hydrothermal waste management systems through uncertainty analysis and Monte Carlo filtering. Overall, our work demonstrates the potential ofHTL-based resource recovery systems to reduce the costs and carbon intensity of resource-rich organic wastes.'
+  citation: 'Feng, J.; Li, Y.; Strathmann, T. J.; Guest, J. S. Characterizing the Opportunity Space for Sustainable Hydrothermal Valorization of Wet Organic Wastes. Environ. Sci. Technol. 2024. https://doi.org/10.1021/acs.est.3c07394.'
+  btn_num: 2
+  btn_url1: 'https://doi.org/10.1021/acs.est.3c07394'
+  btn_class1: 'btn--primary btn--large'
+  btn_label1: 'Read Paper'
+  btn_url2: 'https://github.com/QSD-Group/EXPOsan/tree/main/exposan/htl'
+  btn_class2: 'btn--primary btn--large'
+  btn_label2: 'Source Code'
+  line: true
 ---
 
 {% include single_left id='qsd' %}
@@ -88,3 +103,5 @@ new_generator:
 {% include single_right id='biogenic_refinery' %}
 
 {% include single_left id='new_generator' %}
+
+{% include single_right id='htl' %}
