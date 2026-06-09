@@ -2,9 +2,4 @@
 QSDsan's Website
 ================
 
-Status
-------
-.. image:: https://img.shields.io/badge/status-live-brightgreen?style=flat
-   :target: https://qsdsan.io
-
-This is the central place for information related to the QSDsan platform. The website is now live, though some functionalities (e.g., the web app) are still under construction.
+This repo has been archived. The website is now hosted at https://qsdsan.com, and the source code is available at https://github.com/QSD-Group/QSDsan.
